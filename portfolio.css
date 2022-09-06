@@ -1,0 +1,33 @@
+body {
+    background-image:url(./torn-grunge-paper-with-ripped-edge-background.jpg);
+    background-size: 100%;
+    position: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.header a {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120%;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+  .designer__left img{
+    width: 350px;
+    height: 250px;
+    margin-left: 44%;
+    margin-top: 5%;
+  }
+
+  .text p{
+    margin-left: 280px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+  }
+ 
