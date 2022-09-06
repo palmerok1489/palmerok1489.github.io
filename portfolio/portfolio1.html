@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio1.css">
+    <title>Project</title>
+</head>
+<body>
+    <div class="bottom-left">
+        <a href="../portfolio.html">Home</a>
+        <a href="../skils/skils.html">Skills</a>
+        <a href="../contact/contact.html">Contact</a>
+      </div>
+      <div class="slider">
+        <div class="item">
+          <img src="./beautiful-the-green-scenery-reflecting-in-the-gosh-lake-armenia.jpg" alt="Первый слайд">
+      </div>
+  
+      <div class="item">
+          <img src="./pathway-in-the-middle-of-the-green-leafed-trees-with-the-sun-shining-through-the-branches.jpg" alt="Второй слайд">
+      </div>
+  
+      <div class="item">
+          <img src="./river-surrounded-by-forests-under-a-cloudy-sky-in-thuringia-in-germany.jpg" alt="Третий слайд">
+      </div>
+  
+        <a class="prev" onclick="minusSlide()">&#10094;</a>
+        <a class="next" onclick="plusSlide()">&#10095;</a>
+    </div>
+    <br>
+  
+    <div class="slider-dots">
+      <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+        <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+        <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+    </div>
+      
+    <script src="script.js"></script>	
+    
+</body>
+</html>
