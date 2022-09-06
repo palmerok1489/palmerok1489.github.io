@@ -1,0 +1,128 @@
+body{
+    background: url(background-skills.jpg) no-repeat 0 0;
+    background-size: 100%;
+
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.bottom-left {
+  display: grid;
+  grid-template-columns: 85px 95px 85px;
+  position: absolute;
+  top: 30px;
+  margin-left: 70%;
+  font-family: Impact;
+  font-size: 24px;
+  text-shadow: rgb(83, 83, 83) 0px 5px 12px; 
+}
+
+.skills{
+    cursor: pointer;
+    height: 107px;
+    text-transform: uppercase;
+    border: 8px solid #000;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 98px;
+    text-align: center;
+    letter-spacing: 0.35538em;
+    display: inline-block;
+    padding: 0 3em;
+    margin-left: 38%;
+    margin-top: 7%;
+}
+  
+.using_now h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.18538em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+}
+  
+.icons_using {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    margin-left: 25%;
+}
+  
+.p_using{
+    display: grid;
+    margin-bottom: 5%;
+    grid-template-columns: 300px 300px 300px;
+    margin-left: 17%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.13538em;
+}  
+  
+.learning_skills h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    align-items: center;
+    letter-spacing: 0.18538em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20.5%;
+}
+  
+.icons_learning{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    margin-left: 25%;
+}
+  
+.p_learning{
+    display: grid;
+    margin-bottom: 5%;
+    grid-template-columns: 300px 300px 300px;
+    margin-left: 18%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.13538em;
+}
+  
+.other_skills h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.18538em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 21%;
+}
+  
+.icons_other{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    margin-left: 25%;
+}
+  
+.p_other{
+    display: grid;
+    margin-bottom: 5%;
+    grid-template-columns: 300px 300px 300px;
+    margin-left: 17.5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.13538em;
+}
